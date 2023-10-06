@@ -27,10 +27,37 @@
 # string functions
 # print(mystring.capitalize())
 # print(mystring.count(" "))
-# # print(mystring.index("s"))
+# print(mystring.index("noods"))
 # print(mystring.endswith("string notes for python"))
 # print(mystring.isalnum())
 # mystring = "%i am@khang"
 # for i in mystring:
-#     if i.isalnum():
+    # if i.isalnum():
 #         print(i,end=":")
+
+# print(mystring.find("noods"))
+# find and index both returns lowest index of the substring but index returns value error and find returns -1 when substring is not foun
+
+# print(mystring.find("n"))
+# for i in mystring:
+#     if i.find("n"):
+#         print(i)
+# print(mystring.index())
+# for i in mystring:
+    # if i.index()
+
+# # print(mystring.isalnum())
+# if mystring.isalnum():
+#     print("true")
+# else:
+#     print("false")
+
+mystring = "user12345"
+print(mystring.isdigit())
+
+# print(mystring.isalpha())
+
+print(mystring.isnumeric())
+# superscript is when number is above or below the number like a exponent
+# The isdigit() method accepts only decimals, subscripits, and supersscripts. the isnumeric( finction supports digits, vulgar, fractions,
+# subscripts, superscripts, roman numeral, and currency numerators

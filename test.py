@@ -32,9 +32,9 @@
 # x-=2
 # print(x)
 # # task 6
-num3 = int(input("enter a number"))
-num4
-print(67+23)
-print(671-258)
-print(67*24)
-print(67/26)
+# num3 = int(input("enter a number"))
+# num4 = int(input("enter a number"))
+# print(num3+num4)
+# print(num3-num4)
+# print(num3*num4)
+# print(num3/num4)

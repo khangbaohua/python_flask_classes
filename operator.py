@@ -163,13 +163,47 @@
 # 9. ~7 = 000 = 0
 # 10. ~18 = 01101 = 13 
 
-print(~5)
-print(~4)
-print(~10)
-print(~11)
-print(~17)
-print(~14)
-print(~8)
-print(~9)
-print(~7)
-print(~18)
+# print(~5)
+# print(~4)
+# print(~10)
+# print(~11)
+# print(~17)
+# print(~14)
+# print(~8)
+# print(~9)
+# print(~7)
+# print(~18)
+
+# left shift operator <<
+# 4<<2 10000 = 16
+# 3<<1 110 = 6
+# 5<<3 101000 = 40
+# 2<<4 100000 = 32
+# 7<<2 11100 = 28
+# 8<<1 10000 = 16
+# 16<<1 100000 = 32
+# print(4<<2)
+# print(3<<1)
+# print(5<<3)
+# print(2<<4)
+# print(7<<2)
+# print(8<<1)
+# print(16<<1)
+
+# right shift operator >>
+# 18>>4 1 = 1
+# 7>>2 1 = 1
+# 17>>3 10 = 2
+# 24>>3 11 = 3
+# 19>>1 1001 = 9
+# 20>>4 =  = 0
+# 2>>4 = = 0
+# 23>>6 = 0
+# print(18>>4)
+# print(7>>2)
+# print(17>>3)
+# print(24>>3)
+# print(19>>1)
+# print(20>>5)
+# print(2>>4)
+# print(23>>6)

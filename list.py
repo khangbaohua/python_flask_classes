@@ -59,7 +59,7 @@ lists
 # print(mylist)
 # del mylist[2]
 # print(mylist)
-
+# mylist = 1
 # mylist.sort()
 # print(mylist)
 

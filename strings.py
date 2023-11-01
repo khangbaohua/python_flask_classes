@@ -23,10 +23,10 @@
 # if you put nothing as start index, it would by default be 0 
 # 
 
-# mystring = "stringnotesforpython1.2"
+mystring = "stringnotesforpython1.2"
 # string functions
 # print(mystring.capitalize())
-# print(mystring.count(" "))
+print(mystring.count(" "))
 # print(mystring.index("noods"))
 # print(mystring.endswith("string notes for python"))
 # print(mystring.isalnum())

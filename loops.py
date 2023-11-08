@@ -41,3 +41,8 @@
 #         print("positive")
 #     if num%i==-1:
 #         print("negative)
+
+# mylist = [1,2,3,5,9]
+# for i in mylist:
+#     print(i)
+

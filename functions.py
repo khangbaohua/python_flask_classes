@@ -72,3 +72,34 @@
 #     else:
 #         print("no")
 # num(mystring)
+
+# mystring = "i"
+# def string(a):
+#     if len(a)>6 or len(a)==6:
+#         print("yes")
+#     if len(a)<6:
+#         print("no")
+# string(mystring)
+
+# mylist = ["john","bob","jimmy","xaviers","abigail","steven"]
+# def list(a):
+#     for i in mylist:
+#         if len(i)<6:
+#             print("Happy diwali",i)
+# list(mylist)
+
+# mylist = [21.1,23.8,65.5,98.5]
+# def num(a):
+#     for i in a:
+#         if type(i)==float:
+#             print(int(i))
+# num(mylist)
+
+mylist = [1,5,2,4,7,8]
+def num(a):
+    sum=0
+    for i in a:
+        if i%3==2:
+            sum+=i
+    print(sum)
+num(mylist)

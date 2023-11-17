@@ -47,8 +47,36 @@
 # # print(myset2)
 # # # union function is used to make a new set containing all the elements from both myset and myset1
 
-myset1 = {1,4,5,1,1,2,4,6,7}
-myset2 = {3,4,4,5,9,10,3}
-myset1.intersection_update(myset2)
-print(myset1)
+# myset1 = {1,4,5,1,1,2,4,6,7}
+# myset2 = {3,4,4,5,9,10,3}
+# myset1.intersection_update(myset2)
+# print(myset1)
 # intersection_update stores all the common elements from set1 and set2
+#
+# myset1.update(myset2)
+# print(myset1)
+# update function takes all the elements from set 2 and put it inside myset1 and combine them
+
+# myset3 = myset1.intersection(myset2)
+# print(myset3)
+# takes all the common elements from sets and puts them into a new set
+
+# myset1.symmetric_difference_update(myset2)
+# print(myset1)
+# symmetric difference update functoin takes the uncommon elements from set2  and store it in set1
+
+# myset3 = myset1.symmetric_difference_update(myset2)
+# print(myset3)
+# symmetric difference functoin takes all uncommon elements from sets and store it in a new set
+
+# print(myset1.isdisjoint(myset2))
+# checks if set has common or not 
+
+# myset1 = {6,8,9,19,10,8,7,5}
+# myset2 = {6,8,9}
+# print(myset2.issubset(myset1))
+
+# checks if the first set is a sub set of second
+
+# print(myset1.issuperset(myset2))
+# if superset function checks if the first set contains all the elements of the second set inside it

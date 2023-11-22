@@ -70,7 +70,7 @@
 # symmetric difference functoin takes all uncommon elements from sets and store it in a new set
 
 # print(myset1.isdisjoint(myset2))
-# checks if set has common or not 
+# it returns true when there is no element common in between two sets else false
 
 # myset1 = {6,8,9,19,10,8,7,5}
 # myset2 = {6,8,9}
@@ -80,3 +80,37 @@
 
 # print(myset1.issuperset(myset2))
 # if superset function checks if the first set contains all the elements of the second set inside it
+
+# myset1 = {6,8,0,9,True}
+# myset2 = {1,6,7,3,9}
+# myset3 = myset1.symmetric_difference(myset2)
+# print(myset3)
+
+# myset1 = {"apple","banana","plum","watermelon"}
+# myset2 = {"apple","banana","peach"}
+# myset1.symmetric_difference_update(myset2)
+# print(myset1)
+
+# myset1 = {8,7,2,5,1}
+# myset2 = {9,0,1,2,3,8}
+# myset1.intersection(myset2)
+# print(myset1)
+
+# myset1 = {8,7,2,5,1}
+# myset2 = {9,0,1,2,3,8}
+# print(myset1.isdisjoint(myset2))
+# x = myset1.isdisjoint(myset2)
+# if x==False:
+#     print(myset1.intersection(myset2))
+
+    
+
+# myset1 = {8,7,2,5,1}
+# myset2 = {9,0,1,2,3,8}
+# myset1.update(myset2)
+# print(myset1)
+
+# myset1 = {8,7,2,5,1}
+# newset = {"awesome","mega","sauce"}
+# myset1.update(newset)
+# print(myset1)

@@ -1,5 +1,5 @@
 run these commands in terminal of vscode
-python -m venv venv
+python -m venv venv (if venv is already present in the folders then don't execute this command)a
 venv\Scripts\activate
 pip install django
 django-admin startproject projectname

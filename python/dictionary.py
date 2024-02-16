@@ -3,42 +3,71 @@ mydict = {
 
 }
 
-#dictionary has no indexs
-#dictionary contains key, value and "megan" is its value
-#keys are uniqe (cannot be repeated)
-#values can be repeated
-#how to access elements in a dictionary 
-print(mydict[12.5])
+# #dictionary has no indexs
+# #dictionary contains key, value and "megan" is its value
+# #keys are uniqe (cannot be repeated)
+# #values can be repeated
+# #how to access elements in a dictionary 
+# print(mydict[12.5])
 
-mydict["grade"]=3
-print(mydict)
-
-mydict["score"]=19
-print(mydict)
-
-# mydict.popitem()
+# mydict["grade"]=3
 # print(mydict)
 
-# print(mydict.keys())
+# mydict["score"]=19
+# print(mydict)
 
-# print(mydict.values())
+# # mydict.popitem()
+# # print(mydict)
 
-# print(mydict.items())
+# # print(mydict.keys())
+
+# # print(mydict.values())
+
+# # print(mydict.items())
+
+# # for key in mydict:
+# #     print(key)
+
+# # for value in mydict.values():
+# #     print(value)
+
+# # for key, value in mydict.items():
+# #     print(key, value)
 
 # for key in mydict:
-#     print(key)
+#     print(key,mydict[key])
 
-# for value in mydict.values():
-#     print(value)
+# # 1. items() used to print all key value pairs in the dictionary
+# # 2. keys() used to print all the keys
+# # 3. values() used to priny all values
+# # 4. pop(key) used to delete a key of choosing and value
+# # 5. popitem used to delete last key and value
 
-# for key, value in mydict.items():
-#     print(key, value)
+# # What is a dictionary in programming? holds a key amd value in programming
+# # How do you add a new item to a dictionary? mydict["key"]="value"
+# # Can a dictionary have two items with the same key? no
+# # How do you access the value of a specific key in a dictionary? print(mydict["lala"])
+# # What happens if you try to access a key that is not in the dictionary? error
+# # How can you check if a key is present in a dictionary? you look in the dictionary
+# # What does the pop method do in relation to dictionaries? delete a key pair of choosing
+# # How do you update the value of an existing key in a dictionary? mydict.update
+# # Can a dictionary have a number as a key? yes
+# # How do you remove a key-value pair from a dictionary? pop or popitem
 
-for key in mydict:
-    print(key,mydict[key])
+mydict["lala"]="lele"
+# print(mydict["lala"])
 
-# 1. items() used to print all key value pairs in the dictionary
-# 2. keys() used to print all the keys
-# 3. values() used to priny all values
-# 4. pop(key) used to delete a key of choosing and value
-# 5. popitem used to delete last key and value
+# print(mydict["no"])
+
+
+# delete key pair in dictionary
+
+mydict[21]=21
+# print(mydict)
+
+# mydict.update()
+# print(mydict)
+
+
+# mydict.pop("lala")
+# print(mydict)

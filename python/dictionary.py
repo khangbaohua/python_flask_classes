@@ -71,3 +71,16 @@ mydict[21]=21
 
 # mydict.pop("lala")
 # print(mydict)
+
+list = "Join these words"
+print("-".join(list.split()))
+
+# 1. [2,3,4]
+# 2. a
+# 3. a
+# 4. b
+# 5. b
+# 6. c
+# 7. a
+# 8. d
+# 9. 5

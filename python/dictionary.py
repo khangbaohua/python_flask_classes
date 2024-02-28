@@ -54,26 +54,26 @@ mydict = {
 # # Can a dictionary have a number as a key? yes
 # # How do you remove a key-value pair from a dictionary? pop or popitem
 
-mydict["lala"]="lele"
-# print(mydict["lala"])
+# mydict["lala"]="lele"
+# # print(mydict["lala"])
 
-# print(mydict["no"])
-
-
-# delete key pair in dictionary
-
-mydict[21]=21
-# print(mydict)
-
-# mydict.update()
-# print(mydict)
+# # print(mydict["no"])
 
 
-# mydict.pop("lala")
-# print(mydict)
+# # delete key pair in dictionary
 
-list = "Join these words"
-print("-".join(list.split()))
+# mydict[21]=21
+# # print(mydict)
+
+# # mydict.update()
+# # print(mydict)
+
+
+# # mydict.pop("lala")
+# # print(mydict)
+
+# list = "Join these words"
+# print("-".join(list.split()))
 
 # 1. [2,3,4]
 # 2. a

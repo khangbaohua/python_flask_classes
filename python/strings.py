@@ -61,3 +61,9 @@ print(mystring.isnumeric())
 # superscript is when number is above or below the number like a exponent
 # The isdigit() method accepts only decimals, subscripits, and supersscripts. the isnumeric( finction supports digits, vulgar, fractions,
 # subscripts, superscripts, roman numeral, and currency numerators
+# zfill
+# maketrans
+# encode
+# format_map
+# translate
+# title

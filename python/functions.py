@@ -95,11 +95,20 @@
 #             print(int(i))
 # num(mylist)
 
-mylist = [1,5,2,4,7,8]
-def num(a):
-    sum=0
-    for i in a:
-        if i%3==2:
-            sum+=i
-    print(sum)
-num(mylist)
+# mylist = [1,5,2,4,7,8]
+# def num(a):
+#     sum=0
+#     for i in a:
+#         if i%3==2:
+#             sum+=i
+#     print(sum)
+# num(mylist)
+
+# return statement
+def add(a,b):
+    c= a+b
+    return c
+c = add (2,3)
+print(c)
+# return means function is giving something as output and we can store that output in a variable outside the funtion
+

@@ -1,7 +1,7 @@
-mystring = ("I, like, bananas, and, apples, a, lot ")
+mystring = ("I like bananas and, apples a lot ")
 
-# x = mystring.isupper()
-# print(x)
+x = mystring.isupper()
+print(x)
 
 # x = mystring.casefold()
 # print(x)
@@ -24,5 +24,6 @@ mystring = ("I, like, bananas, and, apples, a, lot ")
 # x = mystring.startswith("apple")
 # print(x)
 
-x = mystring.strip()
-print(x)
+# x = mystring.strip()/
+
+# print(mystring[0:2])

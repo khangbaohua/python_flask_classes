@@ -207,3 +207,5 @@
 # print(20>>5)
 # print(2>>4)
 # print(23>>6)
+x = True
+print(type(x))

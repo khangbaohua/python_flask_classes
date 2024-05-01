@@ -67,3 +67,4 @@ print(mystring.isnumeric())
 # format_map
 # translate
 # title
+mystring.

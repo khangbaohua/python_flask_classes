@@ -37,19 +37,46 @@
 # The median is the middle value in a list when the numbers are sorted in ascending order.
 # If the list has an even number of elements, the median is the average of the two middle numbers.
 
-numbers = [1,2,3,1,2,4,11,6,1,1,1,1,1,1,1,1,2,2,2,3,3,8,8]
-def calculate_median(numbers):
-    numbers.sort()
-    print(numbers)
-    lens = len(numbers)
-    ans = 0
-    if lens%2==0:
-        index1 = lens//2
-        index2 = lens//2+1
-        ans = (numbers[index1]+numbers/[index2])//2
-    else:
-        index = lens//2
-        ans = numbers[index]
-    return ans
-ans = calculate_median(numbers)
-print(ans)
+# numbers = [1,2,3,1,2,4,11,6,1,1,1,1,1,1,1,1,2,2,2,3,3,8,8]
+# def calculate_median(numbers):
+#     numbers.sort()
+#     print(numbers)
+#     lens = len(numbers)
+#     ans = 0
+#     if lens%2==0:
+#         index1 = lens//2
+#         index2 = lens//2+1
+#         ans = (numbers[index1]+numbers/[index2])//2
+#     else:
+#         index = lens//2
+#         ans = numbers[index]
+#     return ans
+# ans = calculate_median(numbers)
+# print(ans)
+
+# Given a list of integers, write a Python function that finds the second largest number in the list. You must not use any built-in functions like sort() or max(), and ensure your solution can handle lists with duplicates.
+# Sample Input:
+# [7, 5, 6, 3, 4, 1, 2, 7, 5]
+# Expected Output:d
+# def max(nums):
+#     max = nums[0]
+#     for i in nums:
+#         if i>max:
+#             max = i
+#     return max
+# num = [7, 5, 6, 3, 4, 1, 2, 7, 5]
+# maximum = max(num)
+
+
+# def second_largest(n):
+#     second = 0
+#     for i in n:
+#         if second<i and i<maximum:
+#             second = i
+#     return second        
+# n = [7, 5, 6, 3, 4, 1, 2, 7, 5]
+# second_largest_number = second_largest(n)
+# print(second_largest_number)
+
+# You need to take 3 integers as input and  print which one is the greatest among them
+
